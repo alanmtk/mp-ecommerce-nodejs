@@ -84,7 +84,9 @@
                                     {{ unit }}
                                 </h3>
                             </div>
-                            <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
+                            <form action="{{ initPoint }}" method="GET">
+                                <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -92,4 +94,3 @@
         </div>
     </div>
 </div>
-   
